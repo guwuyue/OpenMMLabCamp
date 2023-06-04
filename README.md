@@ -53,3 +53,7 @@
 ![avatar](/opencv2.jpg)
 
 ![avatar](/visualizer.jpg)
+
+### 预测视频
+
+![avatar](/video.mp4)
