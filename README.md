@@ -33,20 +33,23 @@
 ### 关键点检测Baseline模型（RTMPose-s） 
 
 
-     Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.772
-     Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.951
-     Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.951
-     Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
-     Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
-     Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.772
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.814
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.814
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.814
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = -1.000
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = -1.000
-     Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.814
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] =  0.743
+     Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets= 20 ] =  1.000
+     Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets= 20 ] =  0.930
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = -1.000
+     Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] =  0.743
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 20 ] =  0.783
+     Average Recall     (AR) @[ IoU=0.50      | area=   all | maxDets= 20 ] =  1.000
+     Average Recall     (AR) @[ IoU=0.75      | area=   all | maxDets= 20 ] =  0.952
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets= 20 ] = -1.000
+     Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] =  0.783
+
      
 
 ### 预测图
 
-![avatar](/det_ear_predictor2.jpg)
+![avatar](/opencv1.png)
+
+![avatar](/opencv2.jpg)
+
+![avatar](/visualizer.jpg)
