@@ -45,15 +45,13 @@
      Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets= 20 ] =  0.783
 
      
+### 预测视频
+
+[https://github.com/guwuyue/OpenMMLabCamp/blob/master/video.mp4](/https://github.com/guwuyue/OpenMMLabCamp/blob/master/video.mp4)
 
 ### 预测图
 
 ![avatar](/opencv1.png)
 
-![avatar](/opencv2.jpg)
-
 ![avatar](/visualizer.jpg)
 
-### 预测视频
-
-![avatar](/video.mp4)
