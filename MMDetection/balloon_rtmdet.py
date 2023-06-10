@@ -1,7 +1,6 @@
-# 当前路径位于 mmdetection/tutorials, 配置将写到 mmdetection/tutorials 路径下
+# 当前路径位于 mmdetection/data, 配置将写到 mmdetection/data 路径下
 
 _base_ = '../configs/rtmdet/rtmdet_tiny_8xb32-300e_coco.py'
-
 data_root = 'data/balloon_dataset/'
 
 # 非常重要
