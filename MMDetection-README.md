@@ -33,6 +33,9 @@
     Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.692
     Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.917
 
+## 配置文件
+    [config](/MMDetection/balloon_rtmdet.py)
+
 ### json转coco
 
 @import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMDetection/json_2_coco.py"
