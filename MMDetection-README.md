@@ -20,13 +20,29 @@
 
 ### 目标检测Baseline模型（RTMDet-tiny） 
 
-    2023/06/10 17:34:19 - mmengine - INFO - Evaluating bbox...
-    2023/06/10 17:34:19 - mmengine - INFO - bbox_mAP_copypaste: 0.764 0.863 0.853 0.000 0.365 0.899
-    2023/06/10 17:34:19 - mmengine - INFO - Epoch(val) [200][13/13]    coco/bbox_mAP: 0.7640  coco/bbox_mAP_50: 0.8630  coco/bbox_mAP_75: 0.8530  coco/bbox_mAP_s: 0.0000  coco/bbox_mAP_m: 0.3650  coco/bbox_mAP_l: 0.8990  data_time: 0.0026  time: 0.0294
+    Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.762
+    Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.876
+    Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.842
+    Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+    Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.502
+    Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.881
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.244
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.782
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.826
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.000
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.692
+    Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.917
 
 ### json转coco
+
+@import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMDetection/json_2_coco.py"
+
+### 可视化数据集
+
+    MMDetection/vis.py
     
-### 预测图
 
-![avatar](/MMDetection/vis_show.png)
+### 预测图 可视化
 
+![avatar](/MMDetection/vis.png)
+    
