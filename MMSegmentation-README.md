@@ -48,8 +48,30 @@
     存储位置 configs/pspnet 
 
 
+## 训练结果
+    06/17 16:31:18 - mmengine - INFO - per class results:
+    06/17 16:31:18 - mmengine - INFO - 
+    +------------+-------+-------+
+    |   Class    |  IoU  |  Acc  |
+    +------------+-------+-------+
+    |    red     | 81.67 | 87.68 |
+    |   green    | 83.94 |  99.0 |
+    |   white    | 56.09 | 60.63 |
+    | seed-black | 30.64 | 50.04 |
+    | seed-white |  40.9 |  49.4 |
+    | Unlabeled  |  0.0  |  0.0  |
+    +------------+-------+-------+
+    06/17 16:31:18 - mmengine - INFO - Iter(val) [11/11]    aAcc: 85.8900  mIoU: 48.8700  mAcc: 57.7900  data_time: 0.0037  time: 0.2214
+
+
+
+## 原图
+![avatar](/MMSegmentation/test_img.jpg)
+
 ## 可视化图示
-![avatar](/MMSegmentation/vis1.png)
-    
+![avatar](/MMSegmentation/可视化语义分割预测结果.png)
+![avatar](/MMSegmentation/可视化预测结果1.png)
+![avatar](/MMSegmentation/可视化预测结果2.png)
+
 
     
