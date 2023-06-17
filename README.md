@@ -18,3 +18,7 @@ OpenMMLabCamp
 ### ControlNet 的 N 种玩法
 
 @import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMagic-README.md"
+
+### MMSeg语义分割: 西瓜瓤、西瓜皮、西瓜籽像素级语义分割
+
+@import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMSegmentation-README.md"
