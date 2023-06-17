@@ -9,7 +9,7 @@
     将毛坯房图、Canny 边缘检测图、咒语 Prompt、ControlNet 生成图，做成一页海报，发到群里。
 
 ## 代码文件
-[config](/MMagic/test.py)
+@import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMagic/test.py"
 
 ## 毛坯房图 原图
 ![avatar](/MMagic/maopifang_org.jpg) 
@@ -18,11 +18,9 @@
 ![avatar](/MMagic/maopifang_canny.jpg) 
 
 ## 咒语 Prompt
-    
     prompt = 'Room with blue walls and a yellow ceiling.'
     
 ### 生成图
-
 ![avatar](/MMagic/maopifang_control_0.png)
 ![avatar](/MMagic/maopifang_sample_0.png)
 
