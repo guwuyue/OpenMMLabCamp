@@ -14,3 +14,7 @@ OpenMMLabCamp
 ### 基于 RTMDet 的气球检测
 
 @import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMDetection-README.md"
+
+### ControlNet 的 N 种玩法
+
+@import "https://github.com/guwuyue/OpenMMLabCamp/blob/master/MMagic-README.md"
